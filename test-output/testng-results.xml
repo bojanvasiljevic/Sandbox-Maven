@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-15T22:29:15 CEST" name="Default suite" finished-at="2020-05-15T22:29:47 CEST" duration-ms="32090">
+    <groups>
+    </groups>
+    <test started-at="2020-05-15T22:29:15 CEST" name="Default test" finished-at="2020-05-15T22:29:47 CEST" duration-ms="32090">
+      <class name="pagetests.ProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pagetests.ProductTest@4690b489]" started-at="2020-05-15T22:29:15 CEST" name="setUp" finished-at="2020-05-15T22:29:22 CEST" duration-ms="7109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:pagetests.ProductTest@4690b489]" started-at="2020-05-15T22:29:22 CEST" name="logIn" finished-at="2020-05-15T22:29:43 CEST" duration-ms="20241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="increasePriceTest()[pri:0, instance:pagetests.ProductTest@4690b489]" started-at="2020-05-15T22:29:43 CEST" name="increasePriceTest" finished-at="2020-05-15T22:29:47 CEST" duration-ms="4681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increasePriceTest -->
+      </class> <!-- pagetests.ProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

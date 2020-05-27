@@ -1,0 +1,44 @@
+HOME_URL  https://sandbox.2checkout.com/sandbox
+LOG_IN_USERNAME  //input[@placeholder='Username']  
+LOG_IN_PASSWORD  //input[@id='password']
+LOG_IN_BUTTON  //input[@class='btn blue']
+SIGN_UP_BUTTON  //div[@id='secondary-action']//a
+INCORRECT_USER_OR_PASSWORD  //div[@class='content']//p
+SIGN_UP_URL  https://sandbox.2checkout.com/sandbox/signup
+SIGN_UP_USERNAME  //input[@id='username']
+SIGN_UP_PASSWORD  //input[@id='password']
+SIGN_UP_EMAIL  //input[@id='email']
+SIGN_UP_CONFIRM_PASSWORD  //input[@id='confirm']
+SIGN_UP_SELECT_OPTION  //body//option[6]  
+SIGN_UP_BUTTON  //input[@id='submit-button']
+HOME_USER_AVATAR  //div[@id='account-avatar']
+HOME_LOG_OUT  //a[@id='logout']
+HOME_PRODUCTS  //li[@id='tab-products']//a
+ADD_NEW_PRODUCT  //a[@class='context-btn add']
+PRODUCT_NAME  //input[@name='name']
+PRODUCT_ID  //input[@name='vendor_product_id']
+SHORT_DESCRIPTION  //input[@name='description']
+LONG_DESCRIPTION  //textarea[@name='long_description']
+PRICE  //input[@name='price']
+TANGIBLE_YES  //input[@id='tangible']
+TANGIBLE_NO  //input[@id='intangible']
+RECURRING_YES  //input[@id='recurring']
+RECURRING_NO  //div[@class='form-group interval']//label[3]//input[1]
+APPROVED_URL  //input[@name='approved_url']
+SUBMIT  submit
+VALIDATION  //span[@class='form_valid large']
+TANGIBLE_WEIGHT  //input[@name='weight']
+TANGIBLE_HANDLING  //input[@name='weight']
+RECURRING_SETUP_FEE  //input[@name='startup_fee']
+RECURRING_BILL  //input[@id='run_increment']
+RECURRING_WEEK  //select[@id='run_interval']//option[2]
+RECURRING_MONTH  //select[@id='run_interval']//option[3]
+RECURRING_YEAR  //select[@id='run_interval']//option[4]
+RECURRING_CUNTINUE_BILLING  //input[@id='data_increment']
+RECURRING_BILLING_WEEK  //select[@id='data_interval']//option[2]
+RECURRING_BILLING_MONTH  //select[@id='data_interval']//option[3]
+RECURRING_BILLING_YEAR  //select[@id='data_interval']//option[4]
+RECURRING_BILLING_FOREVER  //body//option[5]
+EDIT_PRODUCT  Edit
+EDIT_PRICE  //input[@name][@style='text-align:right']
+EDIT_VALIDATION  form_valid
